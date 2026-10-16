@@ -1,8 +1,0 @@
-name: dep
-on: push
-jobs:
-  d:
-    runs-on: ubuntu-latest
-    environment: gated
-    steps:
-      - run: echo deploy
